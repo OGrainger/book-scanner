@@ -44,11 +44,20 @@ const BookListing = ({
         </View>}
         <Spacer size={25} />
         <FlatList
+          inverted
           numColumns={1}
           data={books}
           renderItem={({ item }) => (
             <Card style={{ paddingHorizontal: 6 }}>
               <Spacer size={10} />
+              <CardItem cardBody>
+                <Body>
+                  <Spacer size={5} />
+                  <Text style={{ fontWeight: 'bold' }}>{item.volumeInfo && item.volumeInfo.title}</Text>
+                  <Text style={{ fontWeight: '100' }}>{item.volumeInfo && item.volumeInfo.authors && item.volumeInfo.authors.length > 0 && item.volumeInfo.authors.join(', ')}</Text>
+                  <Spacer size={15} />
+                </Body>
+              </CardItem>
               {(item.volumeInfo && item.volumeInfo.imageLinks) &&
               <CardItem cardBody>
                 <TouchableOpacity onPress={() => onPress(item)} style={{ flex: 1 }}>
@@ -64,23 +73,16 @@ const BookListing = ({
                   />
                 </TouchableOpacity>
               </CardItem>}
-              <CardItem cardBody>
-                <Body>
-                  <Spacer size={10} />
-                  <Text style={{ fontWeight: '100' }}>{item.volumeInfo && item.volumeInfo.authors && item.volumeInfo.authors.length > 0 && item.volumeInfo.authors.join(', ')}</Text>
-                  <Text style={{ fontWeight: 'bold' }}>{item.volumeInfo && item.volumeInfo.title}</Text>
-                  <Spacer size={15} />
-                  <Button
-                    block
-                    bordered
-                    small
-                    onPress={() => onPress(item)}
-                  >
-                    <Text>View book details...</Text>
-                  </Button>
-                  <Spacer size={5} />
-                </Body>
-              </CardItem>
+              <Spacer size={15} />
+              <Button
+                block
+                bordered
+                small
+                onPress={() => onPress(item)}
+              >
+                <Text>View book details...</Text>
+              </Button>
+              <Spacer size={5} />
             </Card>
           )}
           keyExtractor={keyExtractor}

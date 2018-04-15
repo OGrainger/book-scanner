@@ -5,8 +5,7 @@ export function getHistory() {
     .then(history => resolve(dispatch({
       type: 'GET_HISTORY',
       data: JSON.parse(history) || { books: [] },
-    })))
-    .catch(e => console.log(e)));
+    }))).catch(e => console.log(e)));
 }
 
 export function saveBookToHistory(book) {
