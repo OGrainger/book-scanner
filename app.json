@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "sdkVersion": "22.0.0",
+    "name": "Book Scanner",
+    "slug": "book-scanner",
+    "icon": "src/images/app-icon.png",
+    "privacy": "public"
+  }
+}

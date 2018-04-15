@@ -1,0 +1,223 @@
+[
+  {
+    "kind": "books#volume",
+    "id": "fAe2CwAAQBAJ",
+    "etag": "5e+xGzP76nE",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/fAe2CwAAQBAJ",
+    "volumeInfo": {
+      "title": "Annihilation",
+      "authors": [
+        "Jeff Vandermeer"
+      ],
+      "publisher": "Au Diable Vauvert",
+      "publishedDate": "2016-03-10T00:00:00+01:00",
+      "description": "\"La Zone X, mystérieuse, mortelle. Et en expansion. Onze expéditions soldées par des suicides, meurtres, cancers foudroyants et troubles mentaux. Douzième expédition. Quatre femmes. Quatre scientifiques seules dans une nature sauvage. Leur but : ne pas se laisser contaminer, survivre et cartographier la Zone X. « Un thriller psychologique crispant et glacial... Un peu de Kubrick, beaucoup de Lovecraft, le roman provoque une tension insupportable et une peur claustrophobique qui vous habite longtemps. J’ai adoré. » LAUREN BEUKES « Original, beau, angoissant et magnifique. » WARREN ELLIS « Effrayant et fascinant. » STEPHEN KING\"",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9791030700480"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 224,
+      "printType": "BOOK",
+      "categories": [
+        "Fiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "0.5.4.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=fAe2CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=fAe2CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "fr",
+      "previewLink": "http://books.google.fr/books?id=fAe2CwAAQBAJ&printsec=frontcover&dq=9791030700480&hl=&cd=1&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=fAe2CwAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-fAe2CwAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "FR",
+      "saleability": "FOR_SALE",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 9.99,
+        "currencyCode": "EUR"
+      },
+      "retailPrice": {
+        "amount": 9.99,
+        "currencyCode": "EUR"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=fAe2CwAAQBAJ&rdid=book-fAe2CwAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 9990000,
+            "currencyCode": "EUR"
+          },
+          "retailPrice": {
+            "amountInMicros": 9990000,
+            "currencyCode": "EUR"
+          },
+          "giftable": true
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "FR",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.fr/books/download/Annihilation-sample-epub.acsm?id=fAe2CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.fr/books/download/Annihilation-sample-pdf.acsm?id=fAe2CwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=fAe2CwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "&quot;La Zone X, mystérieuse, mortelle."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "zLkLHQAACAAJ",
+    "etag": "F9Oqe0KvKjs",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/zLkLHQAACAAJ",
+    "volumeInfo": {
+      "title": "La cité des saints et des fous",
+      "authors": [
+        "Jeff VanderMeer"
+      ],
+      "publishedDate": "2006",
+      "description": "Il était une fois sur les bords du fleuve Moss, une cité fantastique du nom d'Ambregis qui entretenait une troublante ressemblance avec le monde que vous pensez connaître. Bâtie avec le sang de ses premiers habitants et marquée pour des siècles par les répercussions de cette lutte, Ambregis est devenue une métropole d'une cruelle beauté - refuge pour les peintres et les voleurs, les compositeurs et les meurtriers... Vous y croiserez des Saints vivants, des écrivains fous, de médiocres artistes se transformant soudain en génies, des calmars géants intelligents, ou encore d'étranges créatures furtives qui ressemblent à des champignons et détiennent les clés de nombreux secrets. Vous y trouverez aussi, au fil de ce livre-univers rabelaisien, grotesque, tragique et parfois déchirant, l'un des plus beaux portraits de ville de la littérature contemporaine.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "2702137091"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9782702137093"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 258,
+      "printType": "BOOK",
+      "categories": [
+        "Ambergris (Imaginary place)"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "language": "fr",
+      "previewLink": "http://books.google.fr/books?id=zLkLHQAACAAJ&dq=9791030700480&hl=&cd=2&source=gbs_api",
+      "infoLink": "http://books.google.fr/books?id=zLkLHQAACAAJ&dq=9791030700480&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/La_cit%C3%A9_des_saints_et_des_fous.html?hl=&id=zLkLHQAACAAJ"
+    },
+    "saleInfo": {
+      "country": "FR",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "FR",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=zLkLHQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Il était une fois sur les bords du fleuve Moss, une cité fantastique du nom d&#39;Ambregis qui entretenait une troublante ressemblance avec le monde que vous pensez connaître."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "2A2GjwEACAAJ",
+    "etag": "4HwYz6+YTnU",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/2A2GjwEACAAJ",
+    "volumeInfo": {
+      "title": "Le manuel Steampunk",
+      "subtitle": "Guide illustré pratique et excentrique pour la création de rêves rétrofuturistes",
+      "authors": [
+        "Jeff VanderMeer",
+        "Desirina Boskovich"
+      ],
+      "publishedDate": "2016-02-17",
+      "description": "Un planétaire vintage actionné par une machine à vapeur, une veste rococopunk décadente fabriquée avec des matériaux de récupération, des instruments de musique, des éléments d’intrigues pour des histoires steampunk : cet ouvrage complet offre des conseils et des sources d’inspiration liées à ce mouvement à la fois tourné vers le futur et rendant hommage au passé.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "2352949289"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9782352949282"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 255,
+      "printType": "BOOK",
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "language": "fr",
+      "previewLink": "http://books.google.fr/books?id=2A2GjwEACAAJ&dq=9791030700480&hl=&cd=3&source=gbs_api",
+      "infoLink": "http://books.google.fr/books?id=2A2GjwEACAAJ&dq=9791030700480&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Le_manuel_Steampunk.html?hl=&id=2A2GjwEACAAJ"
+    },
+    "saleInfo": {
+      "country": "FR",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "FR",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=2A2GjwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "S&#39;il s&#39;appuie sur le passé, le steampunk est un genre à la gloire du progrès qui ne cesse d&#39;évoluer. Le Manuel ,steampunk vous guidera avec brio vers la prochaine étape de son voyage !"
+    }
+  }
+]
