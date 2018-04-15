@@ -9,15 +9,19 @@ export function getHistory() {
 }
 
 export function saveBookToHistory(book) {
-  return dispatch => storage.getItem('history')
+  return dispatch => new Promise(resolve => storage.getItem('history')
     .then((history) => {
       const parsedHistory = (history === null ? { books: [] } : JSON.parse(history));
       parsedHistory.books.push(book);
       return storage.setItem('history', JSON.stringify(parsedHistory));
-    }).then(() => storage.getItem('history')).then(history => dispatch({
+    })
+    .then(() => storage.getItem('history'))
+    .then(history => resolve(dispatch({
       type: 'SAVE_BOOK',
       data: history,
-    }).catch(e => console.log(e)));
+    })))
+    .catch(e => console.log(e)));
+
 }
 
 export function resetHistory() {

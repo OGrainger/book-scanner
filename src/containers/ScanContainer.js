@@ -21,9 +21,7 @@ class ScanContainer extends Component {
 
   saveBook = scannedISBN => this.props.getBookFromISBN(scannedISBN)
     .then(r => this.props.saveBookToHistory(r.data))
-    .then((r) => {
-      return Actions.Book({ match: { params: { id: r.data.id } } });
-    }).catch((err) => {
+    .then(r => Actions.Book({ match: { params: { id: r.data.id } } })).catch((err) => {
       console.log(`Error: ${err}`);
       return this.props.setError(err);
     });
