@@ -14,7 +14,7 @@ const Scan = ({
   if (loading) return <Loading />;
   let changedISBN;
 
-  const onSave = () => save(changedISBN);
+  const onSave = () => (changedISBN && changedISBN !== null ? save(changedISBN) : null);
 
   const onChangeISBN = (text) => {
     changedISBN = text;
