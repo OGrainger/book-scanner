@@ -18,7 +18,7 @@ export function saveBookToHistory(book) {
     .then(() => storage.getItem('history'))
     .then(history => resolve(dispatch({
       type: 'SAVE_BOOK',
-      data: history,
+      data: JSON.parse(history),
     })))
     .catch(e => console.log(e)));
 

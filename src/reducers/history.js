@@ -33,7 +33,6 @@ export default function historyReducer(state = initialState, action) {
       };
     }
     default:
-      console.log(state);
       return state;
   }
 }

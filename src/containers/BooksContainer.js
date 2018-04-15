@@ -41,10 +41,6 @@ class BooksContainer extends Component {
   render = () => {
     const { Layout, History, match } = this.props;
     const id = (match && match.params && match.params.id) ? match.params.id : null;
-    /* console.log('--- HISTORY STATE ----');
-    console.log(books);
-    console.log('--- /HISTORY STATE ---'); */
-
 
     return (
       <Layout

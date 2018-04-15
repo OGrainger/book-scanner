@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FlatList, TouchableOpacity, RefreshControl, Image } from 'react-native';
-import {Container, Content, Card, CardItem, Body, Text, Button, View} from 'native-base';
+import { Container, Content, Card, CardItem, Body, Text, Button, View } from 'native-base';
 import { Actions } from 'react-native-router-flux';
 import Loading from './Loading';
 import Error from './Error';
@@ -54,24 +54,25 @@ const BookListing = ({
                 <Body>
                   <Spacer size={5} />
                   <Text style={{ fontWeight: 'bold' }}>{item.volumeInfo && item.volumeInfo.title}</Text>
-                  <Text style={{ fontWeight: '100' }}>{item.volumeInfo && item.volumeInfo.authors && item.volumeInfo.authors.length > 0 && item.volumeInfo.authors.join(', ')}</Text>
+                  <Text
+                    style={{ fontWeight: '100' }}
+                  >{item.volumeInfo && item.volumeInfo.authors && item.volumeInfo.authors.length > 0 && item.volumeInfo.authors.join(', ')}
+                  </Text>
                   <Spacer size={15} />
                 </Body>
               </CardItem>
               {(item.volumeInfo && item.volumeInfo.imageLinks) &&
               <CardItem cardBody>
-                <TouchableOpacity onPress={() => onPress(item)} style={{ flex: 1 }}>
-                  <Image
-                    source={{ uri: item.volumeInfo.imageLinks.thumbnail }}
-                    resizeMode="contain"
-                    style={{
-                      height: 200,
-                      width: null,
-                      flex: 1,
-                      borderRadius: 2,
-                    }}
-                  />
-                </TouchableOpacity>
+                <Image
+                  source={{ uri: item.volumeInfo.imageLinks.thumbnail }}
+                  resizeMode="contain"
+                  style={{
+                    height: 200,
+                    width: null,
+                    flex: 1,
+                    borderRadius: 2,
+                  }}
+                />
               </CardItem>}
               <Spacer size={15} />
               <Button
