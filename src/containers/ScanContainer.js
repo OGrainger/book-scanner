@@ -16,11 +16,10 @@ class ScanContainer extends Component {
     }).isRequired,
     saveBookToHistory: PropTypes.func.isRequired,
     getBookFromISBN: PropTypes.func.isRequired,
-    setError: PropTypes.func.isRequired,
   };
 
   saveBook = scannedISBN => this.props.getBookFromISBN(scannedISBN)
-    .then(r => this.props.saveBookToHistory(r.data))
+    .then(r => (r.type === 'BOOK_ERROR' ? Promise.reject(r.data) : this.props.saveBookToHistory(r.data)))
     .then(r => Actions.Book({
       match: {
         params: {
@@ -28,9 +27,8 @@ class ScanContainer extends Component {
         },
       },
     }))
-    .catch((err) => {
-      console.log(`Error: ${err}`);
-      return this.props.setError(err);
+    .catch(() => {
+      // Error is managed elsewhere
     });
 
   render = () => {
@@ -52,7 +50,6 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = {
   saveBookToHistory,
   getBookFromISBN,
-  setError,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(ScanContainer);
