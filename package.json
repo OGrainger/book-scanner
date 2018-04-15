@@ -1,8 +1,7 @@
 {
-  "name": "rnsk",
-  "homepage": "http://react-boilerplate.mcnam.ee/",
-  "version": "0.1.0",
-  "private": true,
+  "name": "book-scanner",
+  "version": "1.0.0",
+  "private": false,
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "autoprefixer-loader": "^3.2.0",
@@ -36,10 +35,7 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch",
-    "web": "webpack-dev-server --content-base build/ --config webpack/web.dev.config.js --port 3001 --inline --hot --colors --historyApiFallback",
-    "web-bundle": "webpack --config webpack/web.prod.config.js --progress --colors",
-    "clear-cache": "gulp clear-cache"
+    "test": "node node_modules/jest/bin/jest.js --watch"
   },
   "jest": {
     "preset": "jest-expo"
